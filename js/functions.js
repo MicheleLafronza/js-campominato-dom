@@ -18,13 +18,13 @@ function rndNum(min, max) {
   }
 
 // funzione che genera una lista di numeri univoci da 1 a 16
-function uniqueNumbersList () {
+function uniqueNumbersList ( maxBombs, min, level ) {
     // creo array
     const numList = [];
 
-    while (numList.length < 16) {
+    while (numList.length < maxBombs) {
         // funzione per generare numero random
-        let num = rndNum(1, 16);
+        let num = rndNum(min, level);
 
         // check se il numero non c'è già nella lista, viene pushato
         if (numList.includes(num) === false) {

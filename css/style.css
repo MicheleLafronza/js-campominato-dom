@@ -46,7 +46,11 @@ main > h1 {
     align-items: center;
 }
 
-.clicked {
+.bomb {
+    background-color: red;
+}
+
+.safe {
     background-color: blueviolet;
 }
 
