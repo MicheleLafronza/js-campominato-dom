@@ -15,6 +15,8 @@ button.addEventListener("click",
         // aggiungo la classe container al contenitore per farlo comparire
         container.classList.add("container");
 
+        // array con numeri bombe
+        const bombs = uniqueNumbersList();
 
         // creo ciclo per far comparire tot elementi nel container
         for (let i=1; i <=100; i++) {
