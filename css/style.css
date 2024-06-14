@@ -30,7 +30,7 @@ main > h1 {
 .container {
     border: 2px solid black;
     width: 70%;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     flex-wrap: wrap;   
 }
@@ -44,6 +44,7 @@ main > h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .bomb {
@@ -76,4 +77,16 @@ main > h1 {
     border: 2px solid yellow;
     background-color: red;
     cursor: pointer;
+}
+
+/* regole punteggio finale */
+.esito-finale-hide {
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.esito-finale-active {
+    display: block;
 }
